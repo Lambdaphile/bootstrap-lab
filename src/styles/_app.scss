@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+
+  .btn {
+    @extend #{'.m-5'};
+    color: $hasret !important;
+  }
+}
